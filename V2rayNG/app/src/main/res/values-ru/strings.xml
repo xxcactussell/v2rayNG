@@ -179,6 +179,8 @@
     </string-array>
 
     <string name="title_pref_speed_enabled">Показывать скорость</string>
+    <string name="title_pref_dynamic_color">Динамические цвета</string>
+    <string name="summary_pref_dynamic_color">Использовать цвета на основе обоев (Android 12+)</string>
     <string name="summary_pref_speed_enabled">Показывать текущую скорость в уведомлении.\nЗначок будет меняться в зависимости от использования.</string>
 
     <string name="title_pref_sniffing_enabled">Анализировать пакеты</string>
