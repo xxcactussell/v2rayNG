@@ -64,6 +64,36 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:orientation="horizontal"
+                            android:paddingTop="@dimen/padding_spacing_dp4">
+
+                            <com.google.android.material.chip.Chip
+                                android:id="@+id/chip_main"
+                                style="@style/Widget.MaterialComponents.Chip.Action"
+                                android:layout_width="wrap_content"
+                                android:layout_height="24dp"
+                                android:layout_marginEnd="4dp"
+                                android:text="@string/title_main"
+                                android:textSize="11sp"
+                                android:visibility="gone"
+                                app:chipBackgroundColor="@color/colorIndicator"
+                                app:chipMinTouchTargetSize="0dp" />
+
+                            <com.google.android.material.chip.Chip
+                                android:id="@+id/chip_favorite"
+                                style="@style/Widget.MaterialComponents.Chip.Action"
+                                android:layout_width="wrap_content"
+                                android:layout_height="24dp"
+                                android:text="@string/title_favorite"
+                                android:textSize="11sp"
+                                android:visibility="gone"
+                                app:chipBackgroundColor="@color/colorPing"
+                                app:chipMinTouchTargetSize="0dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal"
                             android:paddingTop="@dimen/padding_spacing_dp8">
 
                             <androidx.constraintlayout.widget.ConstraintLayout

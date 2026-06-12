@@ -234,6 +234,8 @@
     <string name="title_pref_delay_test_url">True delay test url </string>
     <string name="summary_pref_delay_test_url">Url</string>
     <string name="title_pref_real_ping_concurrency">True delay test concurrency</string>
+    <string name="title_pref_failover_enabled">Enable Auto-Failover</string>
+    <string name="summary_pref_failover_enabled">Automatically switch to favorite servers when the main server is down</string>
 
     <string name="title_pref_ip_api_url">Current connection info test url</string>
     <string name="summary_pref_ip_api_url">Url</string>
@@ -342,6 +344,13 @@
     <string name="toast_fragment_not_available">Unable to locate current view</string>
     <string name="title_locate_selected_config">Locate the selected config</string>
     <string name="title_wear_settings">Wear OS Settings</string>
+
+    <string name="title_main">Main</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="menu_item_add_favorite">Add to favorite</string>
+    <string name="menu_item_remove_favorite">Remove from favorite</string>
+    <string name="menu_item_set_main">Set as main</string>
+    <string name="menu_item_unset_main">Unset main</string>
 
 
     <string name="tasker_start_service">Start Service</string>
